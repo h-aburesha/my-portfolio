@@ -1,0 +1,55 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1f2023; /* dark background color */
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #c7c7c7;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 2rem;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
