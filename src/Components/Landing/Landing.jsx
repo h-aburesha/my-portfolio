@@ -16,6 +16,13 @@ function Landing() {
                     years professional in business development!
                 </h1>
             </header>
+            <div className="navigation-list-home">
+                <ul>
+                    <li>See my work → </li>
+                    <li>Read about my rapproach → </li>
+                    <li>Let's talk → </li>
+                </ul>
+            </div>
         </div>
     );
 }
