@@ -19,8 +19,8 @@ function Landing() {
             <div className="navigation-list-home">
                 <ul>
                     <li>See my work → </li>
-                    <li>Read about my rapproach → </li>
-                    <li>Let's talk → </li>
+                    <li>Read about my approach → </li>
+                    <li>Contact me → </li>
                 </ul>
             </div>
         </div>
