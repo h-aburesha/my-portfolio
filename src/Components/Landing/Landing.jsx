@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import VideoLogo from "../VideoLogo/VideoLogo";
 import "./Landing.css";
 
 function Landing() {
@@ -7,6 +8,7 @@ function Landing() {
         <>
             <div className="landing-container">
                 <div className="navigation-bar">
+                    <VideoLogo />
                     <button>See my work</button>
                     <button>About me</button>
                     <button>Contact</button>
