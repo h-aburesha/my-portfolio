@@ -6,8 +6,9 @@ import "./Projects.css";
 const projects = [
     {
         id: 1,
-        title: "Project 1",
-        description: "This is a description of Project 1.",
+        title: "React Native App - Bold. (UX/UI Design & Development)",
+        description:
+            "One of my previous UX/UI design bootcamp projects, brought to life with react Native. This app is a fitness tracker that allows users to track macronutrients intake and view their progress over time by the help of scanning the product's barcode with the help of the phone's camera. Additionally, a profile page with ligh and dark theme and a chart page for total macros. The app also allows users to reach their weight goals in a convenient, easy way.",
         imageUrl: "https://via.placeholder.com/200x200",
         linkUrl: "#",
     },
